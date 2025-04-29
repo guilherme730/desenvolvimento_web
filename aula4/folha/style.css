@@ -40,12 +40,15 @@ section {
 section article p {
     padding: 5px 0;
 }
+<<<<<<< HEAD
 .lista {
     padding: 0 0 0 30px
 }
 li::marker{
     font-weight: bold;
 }
+=======
+>>>>>>> d6026bf9b72d8c1f098055e975985f3f7c119918
 footer {
     padding: 20px;
     text-align: center;
