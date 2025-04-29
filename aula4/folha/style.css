@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    padding: 60px;
+    background-color: #bc451a;
+    text-align: center;
+    color: #FFF;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color:#68280e;
+    color: #ffffff;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 14px 20px;
+    display: flex;
+    background-color: #333;
+}
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 20px;
+}
+nav ul li a:hover {
+    color: #000;
+    background-color: #DDD;
+}
+section {
+    padding: 20px;
+}
+section article p {
+    padding: 5px 0;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+}
