@@ -18,6 +18,9 @@ h1 {
     color: #ffffff;
     padding: 10px;
 }
+h2 {
+    padding-bottom: 15px;
+}
 nav ul {
     list-style: none;
     padding: 14px 20px;
@@ -49,4 +52,42 @@ li::marker{
 footer {
     padding: 20px;
     text-align: center;
+}
+.produto{
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.produto h2{
+    color: #bc451a;
+}
+.produto p{
+    margin: 5px 0;
+}
+.preco{
+    color:coral;
+    font-weight: bold;
+}
+form {
+    padding: 15px;
+    border: 1px solid #bc451a;
+}
+label {
+    color: #bc451a;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+input[type="submit"] {
+    background-color: #bc451a;
+    color: #FFF;
+    padding: 8px 16px;
+    cursor: pointer; 
 }
