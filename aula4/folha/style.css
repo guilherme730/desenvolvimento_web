@@ -60,7 +60,7 @@ footer {
     margin: 10px 0;
 }
 .produto h2{
-    color: #bc451a;
+    color: #0e6856;
 }
 .produto p{
     margin: 5px 0;
@@ -71,23 +71,25 @@ footer {
 }
 form {
     padding: 15px;
-    border: 1px solid #bc451a;
+    border: 1px solid rgb(0, 110, 255);
 }
 label {
-    color: #bc451a;
+    color: rgb(0, 110, 255);
     font-weight: bold;
 }
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+    width: 98%;
     margin-bottom: 10px;
     padding: 5px;
-    border: 1px solid #CCC;
+    border: 1px solid #CCC
 }
 input[type="submit"] {
-    background-color: #bc451a;
+    background-color: darkred;
     color: #FFF;
+    border: none;
     padding: 8px 16px;
-    cursor: pointer; 
+    cursor: pointer;
 }
+ 
