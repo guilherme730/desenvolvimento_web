@@ -67,7 +67,7 @@
                 </div>
             </div>
         </div>
-<!-- --------------- SERVIÇOS --------------- -->
+        <!-- --------------- SERVIÇOS --------------- -->
 <div id="servicos">
     <div class="container">
         <h1 class="subtitulo">Serviços</h1>
@@ -76,24 +76,82 @@
             <i class="fa-brands fa-codepen"></i>
             <h2>UX/UI</h2>
             <p>Oferecemos serviços de design UX/UI para criar interfaces intuitivas e atraentes que proporcionam uma experiência de usuário excepcional. Nosso processo envolve pesquisa de usuário, criação de wireframes e protótipos, e testes de usabilidade para garantir que o design atenda às necessidades dos usuários e aos objetivos do seu negócio.</p>
-            <a href="#">saiba mais</a>
+            <a href="#">Saiba Mais</a>
         </div>
             <div>
             <i class="fa-solid fa-code"></i>
             <h2>Web Development</h2>
             <p>Desenvolvemos sites personalizados e funcionais, utilizando as tecnologias mais recentes para garantir desempenho, segurança e escalabilidade. Seja um site institucional, um blog ou uma plataforma de e-commerce, nossa equipe está pronta para transformar suas ideias em realidade.</p>
-            <a href="#">saiba mais</a>
+            <a href="#">Saiba Mais</a>
             </div>
             <div>
             <i class="fa-solid fa-layer-group"></i>
             <h2>Desenvolvimento de Interfaces Web/APP</h2>
             <p>Especializados em desenvolvimento de interfaces para web e aplicativos, criamos soluções que são visualmente atraentes e fáceis de usar. Utilizamos frameworks modernos e práticas recomendadas para garantir que suas interfaces sejam rápidas, responsivas e acessíveis em diversos dispositivos.</p>
-            <a href="#">saiba mais</a>
+            <a href="#">Saiba Mais</a>
             </div>
         </div>
     </div>
 </div>
-    <script>
+        <!-- --------------- PORTFÓLIO  --------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitulo">Meus trabalhos</h1>
+                <div class="lista-trabalhos">
+                    <div class="trabalhos">
+                        <img src="imagens/profissao1.jpg" alt="geração de imagens">
+                        <div class="layer">
+                            <h3>Geração de Imagens</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque quod modi sunt itaque animi labore unde possimus minima. Non molestiae ab sequi quae dolores, blanditiis autem excepturi velit cum natus.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="trabalhos">
+                        <img src="imagens/profissao2.jpg" alt="loja virtual">
+                        <div class="layer">
+                            <h3>Loja virtual</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque quod modi sunt itaque animi labore unde possimus minima. Non molestiae ab sequi quae dolores, blanditiis autem excepturi velit cum natus.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="trabalhos">
+                        <img src="imagens/profissao3.jpg" alt="criação de APP">
+                        <div class="layer">
+                            <h3>Criação de APPs</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque quod modi sunt itaque animi labore unde possimus minima. Non molestiae ab sequi quae dolores, blanditiis autem excepturi velit cum natus.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="botao">Saiba Mais</a>
+        </div>
+    </div>
+
+        <!-- --------------- CONTATO  --------------- -->
+    <div id="contato">
+        <div class="container">
+            <div class="linha">
+                <div class="contato_esquerda">
+                    <h1 class="subtitulo">Contato</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> contato@tf1.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 59 9632-7418</p>
+                    <div class="social">
+                        <a href="https://www.discord.com"><i class="fa-brands fa-discord"></i></a>
+                        <a href="https://www.x.com"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contato_direita"></div>
+                <form name="#">
+                    <input type="text" name="Nome" id="nome" placeholder="Digite seu nome" required>
+                    <input type="email" name="Email" id="email" placeholder="Digite seu email" required>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script>
         var abaLinks = document.getElementsByClassName("aba-links");
         var abaConteudos = document.getElementsByClassName("aba-conteudos");
         function abriraba(abaNome) {
