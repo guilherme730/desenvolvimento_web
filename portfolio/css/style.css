@@ -10,6 +10,7 @@
     --magenta: #FF004F;
     --cinza:  #262626;
     --cinza-claro: #ababab; 
+    --verde: #61b761;
 }
 html {
     scroll-behavior: smooth;
@@ -71,6 +72,10 @@ nav ul li a:hover::after {
 }
 .texto-cabecalho h1 span {
     color: var(--magenta);
+}
+.texto-cabecalho .habilidades {
+    margin-top: 10px;
+    color: var(--magenta)
 }
 /* ******** SOBRE ******** */
 #sobre {
@@ -378,4 +383,9 @@ nav .fa-solid {
     .nav i .fa-solid, .fa-bars {
         cursor: pointer;
     }
+    #msg {
+        color: var(--verde);
+        margin-top: -40px;
+        display: block;
     }
+}
