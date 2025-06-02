@@ -1,0 +1,46 @@
+.logo {
+    height: 60px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    font-size: sans-serif;
+}
+ 
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+ 
+.navbar-brand img {
+    width: 80px;
+    z-index: 10;
+}
+ 
+.nav-link {
+    font-weight: 600;
+    margin-left: 25%;
+}
+.search-wrapper {
+    position: relative;
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #ff6600;
+    /* Cor laranja personalizada */
+    font-size: 22px;
+    /* Tamanho maior do ícone */
+    pointer-events: none;
+    /* Para o clique passar direto pro input */
+}
+.search-input {
+    padding-left: 2.5rem;
+}
+ 
