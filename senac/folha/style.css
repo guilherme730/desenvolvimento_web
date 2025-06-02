@@ -1,46 +1,74 @@
-.logo {
-    height: 60px;
-  }
-  * {
-    margin: 0;
-    padding: 0;
+.navbar {
+    padding: 0.5rem 1rem;
 }
- 
-body {
-    font-size: sans-serif;
-}
- 
-#navbar {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
- 
+
 .navbar-brand img {
-    width: 80px;
-    z-index: 10;
+    width: 100px;
 }
- 
+
 .nav-link {
-    font-weight: 600;
-    margin-left: 25%;
+    font-weight: 500;
+    margin: 0 10px;
+    color: #000 !important;
 }
+
+.navbar-nav .nav-link:hover {
+    color: #3467e6 !important;
+}
+
+.btn-primary {
+    background-color: #3467e6;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3467e6;
+}
+
+.bi-backpack-fill {
+    color: #3467e6;
+    margin-left: 10px;
+}
+
 .search-wrapper {
     position: relative;
 }
+
 .search-icon {
     position: absolute;
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
     color: #ff6600;
-    /* Cor laranja personalizada */
     font-size: 22px;
-    /* Tamanho maior do ícone */
     pointer-events: none;
-    /* Para o clique passar direto pro input */
 }
+
 .search-input {
     padding-left: 2.5rem;
 }
- 
+
+.nav-link {
+    font-weight: 500;
+    margin: 0 12px;
+    color: #000 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3 !important;
+}
+
+.btn-primary {
+    background-color: #2d72d9;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1b4f9c;
+}
+
+.bi-backpack-fill {
+    color: #2d72d9;
+}
+
+
