@@ -194,6 +194,14 @@ color: gold
   width: 100%;
 }
 
+
+#cursos .btn {
+  color: #ffffff;
+  padding: 15px;
+  font-size: 15px;
+  margin-top: -1%;
+}
+
 #cursos h1 {
 margin-left: 35%;
 color: gray;
